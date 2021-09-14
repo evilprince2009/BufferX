@@ -21,4 +21,4 @@ This file will store all the keystrokes you have made previously.
 
 ### Install _**BufferX**_ once in a system and have fun.
 
-### _**[Ibne Nahian](www.facebook.com/evilprince2009)**_
+_**[Ibne Nahian](www.facebook.com/evilprince2009)**_
