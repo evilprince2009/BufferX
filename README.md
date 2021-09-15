@@ -1,4 +1,4 @@
-## _**BufferX**_
+## BufferX
 
 A simple keylogger written in C++
 
