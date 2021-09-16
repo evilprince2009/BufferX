@@ -1,6 +1,6 @@
-#include <iostream>
-#include <winuser.h>
 #include <windows.h>
+#include <winuser.h>
+#include <iostream>
 #include <fstream>
 
 using namespace std;
