@@ -19,6 +19,12 @@ Having _**BufferX**_ running on a system , you will see a _.log_ file in the dir
 ![BufferX](https://github.com/evilprince2009/BufferX/blob/main/Screenshot_2.png)
 This file will store all the keystrokes you have made previously.
 
+### Let's do a Evil thing using _**BufferX**_
+
+Think of a situation when you need to get all the received keystrokes by a user from a Windows system. You can do this by using _**BufferX**_. All you have to do is:-
+
+- Navigate to `C:\Windows\System32` and create a folder named `Records`. You can also create this `Records` wherever you want , but make sure it can't be found easily.
+
 ### Install _**BufferX**_ once in a system and have fun.
 
 _**[Ibne Nahian](www.facebook.com/evilprince2009)**_
