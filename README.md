@@ -21,9 +21,12 @@ This file will store all the keystrokes you have made previously.
 
 ### Let's do a Evil thing using _**BufferX**_
 
-Think of a situation when you need to get all the received keystrokes by a user from a Windows system. You can do this by using _**BufferX**_. All you have to do is:-
+Think of a situation when you need to get all the received keystrokes by a user from a Windows system everytime the system runs. You can do this by using _**BufferX**_. All you have to do is:-
 
 - Navigate to `C:\Windows\System32` and create a folder named `Records`. You can also create this `Records` wherever you want , but make sure it can't be found easily.
+- Put the `BufferX.exe` file in the `Records` folder.
+- Create a shortcut of `BufferX.exe`.
+- Press `Win+R` , type `shell:startup` and hit `Enter`.
 
 ### Install _**BufferX**_ once in a system and have fun.
 
