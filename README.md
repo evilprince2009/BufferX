@@ -27,6 +27,9 @@ Think of a situation when you need to get all the received keystrokes by a user 
 - Put the `BufferX.exe` file in the `Records` folder.
 - Create a shortcut of `BufferX.exe`.
 - Press `Win+R` , type `shell:startup` and hit `Enter`.
+- Paste the shortcut inside the newly opened file explorer window.
+
+This will run _**BufferX**_ everytime the system starts.
 
 ### Install _**BufferX**_ once in a system and have fun.
 
