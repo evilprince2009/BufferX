@@ -13,7 +13,7 @@ void hide_cross_section()
 
 void capture_strokes()
 {
-    const char file_name[] = "CapturedData.log";
+    const char file_name[] = "captured_data.log";
     while (true)
     {
         for (char key = 8; key <= 222; key++)
